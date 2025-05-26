@@ -11,7 +11,7 @@
 
     <div class="flex items-center gap-1 ml-auto">
         @auth
-            <div class="h-64">
+            <div class="h-64 bg-red-300">
                 <livewire:notification.index>
             </div>
             <div class="dropdown dropdown-bottom dropdown-end">
