@@ -108,7 +108,7 @@
             <x-label-error :messages="$errors->get('description')" />
         </div>
         <fieldset>
-            <div class="flex flex-row">
+            <div class="flex ">
                 <x-label-no-req :value="__('immediate corrective action')" />
                 <input wire:model.live="show_immidiate" value='yes' name="status" id="draft"
                     class="radio-xs peer/draft checked:bg-indigo-500 radio" type="radio" name="13" />
