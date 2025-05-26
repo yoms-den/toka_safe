@@ -1,6 +1,6 @@
 <div>
 
-    <div class="dropdown dropdown-end">
+    <div class="hidden dropdown dropdown-end md:block">
         <label tabindex="0" class="btn btn-ghost btn-sm btn-circle">
             <div class="indicator">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -21,7 +21,7 @@
                 <div wire:poll role="tablist" class="tabs tabs-bordered ">
                     <input type="radio" name="my_tabs_1" role="tab" class="tab " aria-label="All"
                         checked="checked" />
-                    <div role="tabpanel" class="h-64 overflow-y-auto  lg:max-h-screen tab-content">
+                    <div role="tabpanel" class="h-64 overflow-y-auto lg:max-h-screen tab-content">
                         <table class="table table-zebra table-xs">
                             <tbody>
                                 @forelse  ($AllNotification as $notification)
