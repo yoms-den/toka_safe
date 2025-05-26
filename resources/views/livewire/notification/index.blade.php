@@ -21,8 +21,7 @@
                 <div wire:poll role="tablist" class="tabs tabs-bordered ">
                     <input type="radio" name="my_tabs_1" role="tab" class="tab " aria-label="All"
                         checked="checked" />
-                    <div role="tabpanel"
-                        class="lg:h-[28rem] xl:h-[42rem] h-64 overflow-y-auto lg:max-h-screen tab-content">
+                    <div role="tabpanel" class="h-64 overflow-y-auto  lg:max-h-screen tab-content">
                         <table class="table table-zebra table-xs">
                             <tbody>
                                 @forelse  ($AllNotification as $notification)
