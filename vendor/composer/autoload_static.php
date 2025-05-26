@@ -779,6 +779,7 @@ class ComposerStaticInit3d22f255c9d6ef55bc7c05f6dde5c55b
         'App\\Livewire\\EventReport\\EventKeyword\\IndexIncident' => __DIR__ . '/../..' . '/app/Livewire/EventReport/EventKeyword/IndexIncident.php',
         'App\\Livewire\\EventReport\\EventPartisipan\\CreateAndUpdate' => __DIR__ . '/../..' . '/app/Livewire/EventReport/EventPartisipan/CreateAndUpdate.php',
         'App\\Livewire\\EventReport\\EventPartisipan\\Index' => __DIR__ . '/../..' . '/app/Livewire/EventReport/EventPartisipan/Index.php',
+        'App\\Livewire\\EventReport\\HazardReportGuest\\Create' => __DIR__ . '/../..' . '/app/Livewire/EventReport/HazardReportGuest/Create.php',
         'App\\Livewire\\EventReport\\HazardReport\\Action\\Create' => __DIR__ . '/../..' . '/app/Livewire/EventReport/HazardReport/Action/Create.php',
         'App\\Livewire\\EventReport\\HazardReport\\Action\\Index' => __DIR__ . '/../..' . '/app/Livewire/EventReport/HazardReport/Action/Index.php',
         'App\\Livewire\\EventReport\\HazardReport\\CreateAndUpdate' => __DIR__ . '/../..' . '/app/Livewire/EventReport/HazardReport/CreateAndUpdate.php',

@@ -133,6 +133,7 @@ return array(
     'App\\Livewire\\EventReport\\EventKeyword\\IndexIncident' => $baseDir . '/app/Livewire/EventReport/EventKeyword/IndexIncident.php',
     'App\\Livewire\\EventReport\\EventPartisipan\\CreateAndUpdate' => $baseDir . '/app/Livewire/EventReport/EventPartisipan/CreateAndUpdate.php',
     'App\\Livewire\\EventReport\\EventPartisipan\\Index' => $baseDir . '/app/Livewire/EventReport/EventPartisipan/Index.php',
+    'App\\Livewire\\EventReport\\HazardReportGuest\\Create' => $baseDir . '/app/Livewire/EventReport/HazardReportGuest/Create.php',
     'App\\Livewire\\EventReport\\HazardReport\\Action\\Create' => $baseDir . '/app/Livewire/EventReport/HazardReport/Action/Create.php',
     'App\\Livewire\\EventReport\\HazardReport\\Action\\Index' => $baseDir . '/app/Livewire/EventReport/HazardReport/Action/Index.php',
     'App\\Livewire\\EventReport\\HazardReport\\CreateAndUpdate' => $baseDir . '/app/Livewire/EventReport/HazardReport/CreateAndUpdate.php',
