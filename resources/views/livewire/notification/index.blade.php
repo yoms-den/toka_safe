@@ -13,7 +13,7 @@
             </div>
         </label>
         <div tabindex="0"
-            class=" z-20 card card-compact dropdown-content w-56  lg:w-[28rem] lg:h-[34rem] xl:h-[48rem] bg-base-100 shadow">
+            class=" z-20 card card-compact dropdown-content w-64   lg:w-[28rem] lg:h-[34rem] xl:h-[48rem] bg-base-100 shadow">
             <div class=" card-body">
                 <label wire:click='deleteCheked' class=" text-rose-500 btn-link btn-xs {{ $hidden ? 'hidden' : '' }}"
                     checked="checked">Delete
@@ -22,7 +22,7 @@
                     <input type="radio" name="my_tabs_1" role="tab" class="tab " aria-label="All"
                         checked="checked" />
                     <div role="tabpanel"
-                        class="lg:h-[28rem] xl:h-[42rem]  h-64 overflow-y-auto md:max-h-screen tab-content">
+                        class="lg:h-[28rem] xl:h-[42rem] h-64 overflow-y-auto md:max-h-screen tab-content">
                         <table class="table table-zebra table-xs">
                             <tbody>
                                 @forelse  ($AllNotification as $notification)
