@@ -47,7 +47,7 @@ class Create extends Component
                 'workgroup_name' => ['required'],
                 'report_byName' => ['required'],
                 'date' => ['required'],
-                'documentation' => 'nullable|mimes:jpg,jpeg,png,svg,gif,xlsx,pdf,docx',
+                'documentation' => 'required|mimes:jpg,jpeg,png,svg,gif,xlsx,pdf,docx',
                 'description' => ['required'],
                 'immediate_corrective_action' => ['required'],
                 'location_name' => ['required'],
@@ -57,7 +57,7 @@ class Create extends Component
                 'workgroup_name' => ['required'],
                 'report_byName' => ['required'],
                 'date' => ['required'],
-                'documentation' => 'nullable|mimes:jpg,jpeg,png,svg,gif,xlsx,pdf,docx',
+                'documentation' => 'required|mimes:jpg,jpeg,png,svg,gif,xlsx,pdf,docx',
                 'description' => ['required'],
                 'location_name' => ['required'],
             ];
